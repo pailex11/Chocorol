@@ -1,0 +1,9 @@
+# Programa.txt - Instrucciones ALU
+
+# Instrucciones de operaciones ALU
+Suma $3, $4, $0          # Mem[$3] + Mem[$4] -> resultado en $0
+Leer $3                  # Leer el valor en Mem[$3]
+Resta $5, $2, $1         # Mem[$5] - Mem[$2] -> resultado en $1
+Leer $5                  # Leer el valor en Mem[$5]
+AND $6, $4, $0           # Mem[$6] & Mem[$4] -> resultado en $0
+OR $7, $5, $0            # Mem[$7] | Mem[$5] -> resultado en $0
